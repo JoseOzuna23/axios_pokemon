@@ -20,7 +20,9 @@ function App() {
 
   return (
     <div className="App">
+     
       <h1 className='text-center bg-success'>lista de los nombres Pokemones</h1>
+      <p className='m-5'>
       <button className='btn btn-danger' onClick={mostrarPokemon}> Cargar Lista</button>
 
       {
@@ -30,7 +32,7 @@ function App() {
 
         ))
       }
-
+    </p>
 
     </div>
   )
